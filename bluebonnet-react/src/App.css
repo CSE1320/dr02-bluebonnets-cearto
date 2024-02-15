@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html, #root, .app{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+}
+h1{
+  margin: 0 !important;
+}
+
+/* .react-swipeable-view-container{
+  min-height: 100%;
+} */
+
+.page{
+  min-height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+
+.dashboard{
+  background: #FEA900;
+}
+
+.plant-profile{
+  background: #B3DC4A;
+}
+
+.season-insights{
+  background: #6AC0FF;
+}
+.plant-search{
+  background: #fd5c63
+}
