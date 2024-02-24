@@ -1,6 +1,5 @@
 const START_SCREEN = "dashboard";
 
-
 const cilantroForum = {
 	location: "Arlington", 
 	chat: [
@@ -19,4 +18,20 @@ const cilantroPlantData = {
 	}
 }
 
-export {cilantroPlantData, cilantroForum, START_SCREEN};
+
+  // MODEL
+  const user = "Bob";
+  const plantList1 = [
+    {name:"Tulip", warning: ['Peacocks eat tulips', 'Will burn']}, 
+    {name:"Rose", warning: ['Will burn']}, 
+    {name:"Orange", warning: []}
+  ]
+  const plantList2 = [
+    {name:"Tulip", warning: ['Peacocks eat tulips', 'Will burn']}, 
+    {name:"Rose", warning: ['Will burn']}, 
+    {name:"Orange", warning: ["ASDKALKDSS"]}
+  ]
+
+  const plantList = plantList2;
+
+export {cilantroPlantData, cilantroForum, plantList, user, START_SCREEN};
